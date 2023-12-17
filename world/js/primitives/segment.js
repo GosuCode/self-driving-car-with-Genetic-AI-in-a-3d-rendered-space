@@ -48,7 +48,7 @@ class Segment {
       ctx.lineWidth = width;
       ctx.strokeStyle = color;
       ctx.lineCap = cap;
-      if (this.oneWay){
+      if (this.oneWay) {
          dash = [4, 4];
       }
       ctx.setLineDash(dash);
